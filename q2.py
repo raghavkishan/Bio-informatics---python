@@ -1,0 +1,6 @@
+f = open('rosalind_ini.txt', 'r')
+string = f.read()
+print string.count('A')
+print string.count('C')
+print string.count('G')
+print string.count('T')
